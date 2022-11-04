@@ -1,6 +1,5 @@
 import sys
 # 데이터 개수 1,000,000개 까지 입력 가능 보통 데이터 개수 천만개가 넘어가면 이진탐색으로 풀자 
-
 n=int(input())
 
 inputData=sys.stdin.readline().rstrip()

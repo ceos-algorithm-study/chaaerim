@@ -8,7 +8,7 @@ for i in range(n):
     data.append(input().split())
     data[i][1]=int(data[i][1])
 
-
+# 정렬 결과 출력
 def setting(data):
     return data[1]
 result=sorted(data, key=setting)

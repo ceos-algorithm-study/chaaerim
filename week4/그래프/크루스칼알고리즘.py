@@ -38,8 +38,6 @@ for _ in range(e):
 # 간선을 비용순으로 정렬
 edges.sort()
 
-# 간선을 비용순으로 정렬
-edges.sort()
 
 # 간선을 하나씩 확인하여
 for edge in edges:

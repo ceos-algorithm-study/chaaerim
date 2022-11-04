@@ -23,7 +23,7 @@ while queue:
     # i는 인덱스 num은 현재 연산 결과, 나머지는 연산자 
     i, num, p, m, mu, d=queue.popleft()
 
-    # 네 연산자 합이 n-1이 되면 연산 종료 결과값 비교 
+    # 네 연산자 합이 n-1이 되면 연산 종료 결과값 비교 (i 1부터 시작했으므로 n과 비교 )
     if i==n:
         minResult=min(minResult, num)
         maxResult=max(maxResult, num)
